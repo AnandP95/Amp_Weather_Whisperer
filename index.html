@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Assets/style.css">
+  <title>AP Weather_Whisperer Dashboard</title>
+</head>
+<body>
+  <header>
+    <h1>AP Weather_Whisperer Dashboard </h1>
+  </header>
+  <div class="weather_dashboard">
+    <form id="search_box">
+      <input type="text" id="city-input" placeholder="Enter city name">
+      <button type="submit" id="searchButton" >Search</button>
+    </form>
+
+    
+    <div class="search_history">
+      <h2>Search History</h2>
+      <ul id="history_list"></ul>
+    </div>
+    <div class="current-weather" id="current-weather">
+      <p id="searchedCity"></p>
+      
+    </div>
+    <div class="forecast" id="forecast">
+      
+    </div>
+  </div>
+
+  
+  <script src="Assets/script.js"></script>
+</body>
+</html>
